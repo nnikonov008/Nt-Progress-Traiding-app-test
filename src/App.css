@@ -1,0 +1,99 @@
+html, body {
+    color: #333;
+    background: #ffffff; 
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+  
+h1 {
+    text-align: center;
+    margin: 20px 0; }
+    h1 span {
+      font-size: 40px;
+      vertical-align: middle; 
+}
+  
+.order-overview, .rate-overview {
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #f2efed;
+    margin-bottom: 10px;
+    position: relative; }
+    .order-overview:last-child, .rate-overview:last-child {
+    margin: 0; 
+}
+  
+.order-overview-title, .rate-overview-title {
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+  
+.order-overview-delete {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    color: orangered;
+    box-shadow: none;
+    border: none;
+    background: none; }
+    .order-overview-delete:hover {
+      text-decoration: underline; 
+}
+  
+.order-overview-desc span, .rate-overview-desc span {
+    min-width: 110px;
+    display: inline-block; 
+}
+  
+.list-container {
+    height: calc(100vh - 310px);
+    min-height: 450px;
+    overflow: auto;
+    margin-bottom: 60px; 
+}
+  
+.order-form {
+    padding-bottom: 120px; 
+}
+.order-form label {
+    width: 110px;
+    display: inline-block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.order-form select {
+    height: 30px; 
+    width: 100px;
+    padding: 5px;
+    background-color: #f2efed;
+    border: none;
+    border-radius: 3px; 
+}
+
+.order-form input {
+    height: 20px; 
+    width: 100px;
+    padding: 5px;
+    background-color: #f2efed;
+    border: none;
+    border-radius: 3px; 
+}
+
+.order-form button {
+      padding: 10px 25px;
+      margin-top: 10px;
+      background-color: #272a34;
+      color: white;
+      border-radius: 3px;
+      float: right;
+      border: none; 
+}
+
+.order-form button:hover {
+        text-decoration: underline; 
+}
